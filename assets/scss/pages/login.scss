@@ -1,0 +1,22 @@
+.bgimage{
+    background-image: url(/assets/images/travel_bg_pc.png);
+    padding:100px;
+}
+.signupFormBox{
+    width: 450px;
+}
+@include mobile-sm{
+    .bgimage{
+        width: 100%;
+        padding: 0;
+    }
+    .signupFormBox{
+        width: auto;
+    }
+    .mobileSmStyle{
+        width: 200px;
+    }
+    .container{
+        padding: 0;
+    }
+}
